@@ -7,7 +7,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 class JavaOopApplicationTests {
 
     @Test
-    void contextLoads() {
+    void main() {
+        String[] args = {"3","1", "2"};
+        JavaOopApplication.main(args);
     }
 
 }
